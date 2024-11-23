@@ -1,0 +1,210 @@
+@import url('./fonts.css');
+
+.app{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 300px;
+}
+
+.bottom-0 {
+    margin-bottom: 0;
+}
+
+.botao:hover {
+    text-align: center;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    background-color: white;
+    color: #19BC9B;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.centro {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.centroTexto{
+    text-align: center;
+}
+
+ footer ul{
+    list-style: none;
+ }
+
+ footer{
+    background-color: #13A085;
+ }
+
+.grande {
+    height: 200px;
+}
+
+.medio{
+    height: 130px;
+}
+
+.menor{
+    height: 80px;
+}
+
+.letra-branca {
+    color: #fff;
+}
+
+.letra-preta{
+    color: black;
+}
+
+.list {
+    color: white;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.listHeader{
+    color: white;
+    font-size: 11px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.listBackgound{
+    background-color: #19BC9B;
+    margin-right: 750px;
+    margin-left: -28px;
+    height: 20px;
+    align-items: center;
+}
+
+.cinza {
+    background-color: #F3F3F3;
+}
+
+.pequena-margem {
+    margin-left: 30px;
+}
+
+.p {
+    color: green;
+}
+
+header {
+    background-color: #13A085;
+    padding: 20px;
+    margin: 0;
+    width: 20px 50px;
+}
+
+.top-0 {
+    margin-top: 0;
+}
+
+.topMenos{
+    margin-top: -20px;
+}
+
+.topMedie{
+    margin-top: 25px;
+}
+
+.margin-0{
+    margin: 0;
+}
+
+.h1{
+    margin-top: 5px;
+    margin-bottom: 0.5px;
+    font-size: 50px;
+}
+
+.textura1{
+    background-image: url('./img/scr01.jpg'); /* Caminho da imagem */
+    background-size: cover; /* Cobrir toda a área */
+    background-position: center; /* Centralizar */
+    background-repeat: no-repeat; /* Não repetir a imagem */
+}
+
+.alinhaSecao{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    text-align: center;
+}
+
+.tamIcon{
+    font-size: 50px;
+    color: #632E00;
+}
+
+.botaoInterno{
+    font-size: 15px;
+    background-color: #13A085;
+    padding: 10px 20px;
+    border-radius: 5px;
+    white-space: nowrap;  /* Impede que o texto quebre para a linha seguinte */
+    overflow: hidden;     /* Impede que o texto ultrapasse o tamanho do botão, se necessário */
+    text-overflow: ellipsis;
+    flex: 0 0 150px;  /* O botão não irá crescer nem encolher, e terá largura fixa de 150px */
+}
+
+.dimensaoImg{
+    width:70%;
+    height:auto;
+    margin-bottom: 0;
+    margin-top: 40px;
+}
+
+body{
+    font-family:'Font-Awesome-Social';
+}
+
+.iconEndSection {
+    margin-top: 30px;
+    font-size: 20px;
+    color: white;
+}
+
+.iconEndSection  > span{
+    font-size: 30px;
+    margin-top: 10px;
+    background-color: #19bc9b;
+    width: 2%;
+    height: 10%;
+    border-radius: 50%;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.iconEndSection  > ul > span{
+    font-size: 35px;
+    margin-top: 10px;
+    background-color: #19bc9b;
+    width: 2%;
+    height: 10%;
+    border-radius: 50%;
+    padding: 1rem;
+    gap:20px;  
+}
+
+.backgoundRedes{
+    background-color: #19BC9B;
+    padding: 10px;
+}
